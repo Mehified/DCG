@@ -1,5 +1,5 @@
 # DCG
-A not-so-simple card game. Infuses characteristics of traditional collectible card games with a deckbuilder playstyle.
+A not-so-simple card game about some dudes dueling each other. Infuses characteristics of traditional collectible card games with a deckbuilder playstyle.
 
 Rules can be found in the Wiki page, or in the rules file.
 
