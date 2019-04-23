@@ -1,0 +1,38 @@
+﻿BORDER=RECTANGLE,#000000,0.1
+PAGE=21,29.7,PORTRAIT,HV
+DPI=300
+CARDSIZE=6.3,8.5
+
+LINKMULTI=#
+LINK="C:\Users\James\OneDrive\Documents\Duelcardgame - Prototypes\nandeck\cardlist.xlsx"
+
+[all] = 1-{(NAME)}
+;VISUAL=, 10, 10
+;<FRAME1>=0%,0%,100%,100%
+;NAME
+TEXTFONT="[all]",[NAME],2.5%,1%,95%,12.5%,CENTER,CENTER,0,100,Arial,12,B
+;EFFECT
+TEXTFONT="[all]",[EFFECT],4%,58%,92%,40%,LEFT,WWCENTER,0,100,Arial,8
+;COST
+;TEXTFONT="[all]",[COST],0%,50%,50%,12.5%,CENTER,CENTER,0,100,Arial,7
+;TYPE
+TEXTFONT="[all]",[TYPE],25%,60%,50%,7.5%,CENTER,CENTER,0,100,Arial,7
+;ATK
+TEXTFONT="[all]",[ATK],15%,92.5%,10%,9%,CENTER,CENTER,0,100,Arial,8
+TEXTFONT="[all]","ATK",5%,92.5%,10%,9%,CENTER,CENTER,0,100,Arial,8
+;DEF
+TEXTFONT="[all]",[DEF],85%,92.5%,10%,9%,CENTER,CENTER,0,100,Arial,8
+TEXTFONT="[all]","DEF",75%,92.5%,10%,9%,CENTER,CENTER,0,100,Arial,8
+;ENDVISUAL
+
+RECTANGLE = [all], 15%,25%,70%,35%,,,0.1
+
+;IMG+COST,with imgs
+htmlimage = [all],(AGI),"agi.png",0.3,0.3,PM
+htmlimage = [all],(STR),"str.png",0.3,0.3,PM
+htmlimage = [all],(MAG),"mag.png",0.3,0.3,PM
+htmlimage = [all],(INT),"int.png",0.3,0.3,PM
+htmlimage = [all],(DEV),"dev.png",0.3,0.3,PM
+htmlimage = [all],(CMD),"cmd.png",0.3,0.3,PM
+htmlfont = default,Arial,7,,#000000,justify
+htmltext=[all],[COST],15%,12.5%,75%,10%,#FFFFFF,0,E,100,default
